@@ -3,7 +3,7 @@
 
   tasks:
     
-	- name: finding the value
-	  shell: |
-	         echo "bye"
+    - name: finding the value
+      shell: |
+        echo "bye"
 
