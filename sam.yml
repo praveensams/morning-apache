@@ -1,0 +1,9 @@
+- hosts: localhost
+  become: true
+
+  tasks:
+    
+	- name: finding the value
+	  shell: |
+	         echo "bye"
+
