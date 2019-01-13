@@ -4,6 +4,6 @@
   tasks:
     
     - name: finding the value
-      shell: |
-        echo "bye"
-
+      copy: 
+	    src: "index.html"
+		dest: "/var/www/html/index.html"
