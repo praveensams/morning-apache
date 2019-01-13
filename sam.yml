@@ -8,4 +8,4 @@
     - name: finding the value
       copy: 
         src: "index.html"
-        dest: "/var/www/html/index.html"
+        dest: "/tmp/index.html"
